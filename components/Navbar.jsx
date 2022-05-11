@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
 import logo from '../assets/logo.png'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
 const Navbar = () => {
 	const [toggleHamburger, setToggleHamburger] = useState(false)
 	const handleHamburgerClick = () => {
@@ -20,11 +22,9 @@ const Navbar = () => {
 				<li>Work</li>
 				<li>Contact</li>
 			</ul>
-			{/* //Todo: Hamburger */}
 			<div onClick={handleHamburgerClick} className='md:hidden z-10'>
 				{!toggleHamburger ? <FaBars /> : <FaTimes />}
 			</div>
-			{/* //Todo: Mobile menu */}
 			<ul
 				className={
 					!toggleHamburger
@@ -38,8 +38,46 @@ const Navbar = () => {
 				<li className='py-6 text-4xl'>Work</li>
 				<li className='py-6 text-4xl'>Contact</li>
 			</ul>
-			{/* //Todo: Social Icon */}
-			<div className='hidden'></div>
+			<div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+				<ul>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px]  duration-100 hover:bg-blue-600 '>
+						<a
+							className='flex  justify-between items-center w-full text-black'
+							href='https://www.linkedin.com/in/stevenovak123/'
+							target='_blank'
+						>
+							LinkedIn <FaLinkedin size={30} />
+						</a>
+					</li>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px]  duration-100 hover:bg-indigo-600 '>
+						<a
+							className='flex  justify-between items-center w-full text-black'
+							href='https://github.com/stevenovak123'
+							target='_blank'
+						>
+							GitHub <FaGithub size={30} />
+						</a>
+					</li>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px]  duration-100 hover:bg-green-600 '>
+						<a
+							className='flex  justify-between items-center w-full text-black'
+							href='https://www.linkedin.com/in/stevenovak123/'
+							target='_blank'
+						>
+							Email <HiOutlineMail size={30} />
+						</a>
+					</li>
+					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px]  duration-100 hover:bg-slate-600 '>
+						<a
+							className='flex  justify-between items-center w-full text-black'
+							href='https://www.linkedin.com/in/stevenovak123/'
+							target='_blank'
+						>
+							Resume <BsFillPersonLinesFill size={30} />
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	)
 }
