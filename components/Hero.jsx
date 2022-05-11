@@ -13,15 +13,15 @@ const Hero = () => {
 					I'm a fresher looking to help develop websites just like this one.
 					Currently I'm focused on building responsive front-ends & learning
 					Node.js
-					<div>
-						<button className='group border-2 border-black px-6 py-3 my-2 flex  items-center  hover:bg-black hover:text-white'>
-							View Work
-							<span className='group-hover:rotate-90 duration-300'>
-								<HiArrowNarrowRight className='ml-3 ' />
-							</span>
-						</button>
-					</div>
 				</p>
+				<div>
+					<button className='group border-2 border-black px-6 py-3 my-2 flex  items-center  hover:bg-black hover:text-white'>
+						View Work
+						<span className='group-hover:rotate-90 duration-300'>
+							<HiArrowNarrowRight className='ml-3' />
+						</span>
+					</button>
+				</div>
 			</div>
 		</div>
 	)
