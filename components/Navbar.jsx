@@ -117,6 +117,7 @@ const Navbar = () => {
 							className='flex  justify-between items-center w-full text-black'
 							href='https://www.linkedin.com/in/stevenovak123/'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							LinkedIn <FaLinkedin size={30} />
 						</a>
@@ -126,6 +127,7 @@ const Navbar = () => {
 							className='flex  justify-between items-center w-full text-black'
 							href='https://github.com/stevenovak123'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							GitHub <FaGithub size={30} />
 						</a>
@@ -135,6 +137,7 @@ const Navbar = () => {
 							className='flex  justify-between items-center w-full text-black'
 							href='mailto:stevenovak0802@gmail.com'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							Email <HiOutlineMail size={30} />
 						</a>
@@ -144,6 +147,7 @@ const Navbar = () => {
 							className='flex  justify-between items-center w-full text-black'
 							href='https://docs.google.com/document/d/1r3dmDnmuXoZ9pvA31lzmM0_FLnvx9RQ3bFUKj6dfEpI/edit?usp=sharing/'
 							target='_blank'
+							rel='noopener noreferrer'
 						>
 							Resume <BsFillPersonLinesFill size={30} />
 						</a>

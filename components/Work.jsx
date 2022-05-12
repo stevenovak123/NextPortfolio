@@ -23,7 +23,11 @@ const Work = () => {
 								Ecommerce Application with TailwindCSS, Firebase and Stripe
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='https://acmestore.vercel.app/ ' target='_blank'>
+								<a
+									href='https://acmestore.vercel.app/ '
+									target='_blank'
+									rel='noopener noreferrer'
+								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'>
 										Demo
 									</button>
@@ -31,6 +35,7 @@ const Work = () => {
 								<a
 									href='https://github.com/VandanRogheliya/ACME-e-comm-Nextjs'
 									target='_blank'
+									rel='noopener noreferrer'
 								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'>
 										Code
@@ -52,6 +57,7 @@ const Work = () => {
 								<a
 									href='https://stevenovak123.github.io/TailwindTemplate/'
 									target='_blank'
+									rel='noopener noreferrer'
 								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'>
 										Demo
@@ -60,6 +66,7 @@ const Work = () => {
 								<a
 									href='https://github.com/stevenovak123/TailwindTemplate'
 									target='_blank'
+									rel='noopener noreferrer'
 								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'>
 										Code
@@ -82,6 +89,7 @@ const Work = () => {
 								<a
 									href='https://stevenovak123.github.io/html-practice/'
 									target='_blank'
+									rel='noopener noreferrer'
 								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'>
 										Demo
@@ -90,6 +98,7 @@ const Work = () => {
 								<a
 									href='https://github.com/stevenovak123/html-practice'
 									target='_blank'
+									rel='noopener noreferrer'
 								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'>
 										Code
@@ -108,7 +117,7 @@ const Work = () => {
 								React JS Application with firebase
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/' target='_blank'>
+								<a href='/' target='_blank' rel='noopener noreferrer'>
 									<button
 										disabled
 										className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'
@@ -119,6 +128,7 @@ const Work = () => {
 								<a
 									href='https://github.com/stevenovak123/marketplace-app'
 									target='_blank'
+									rel='noopener noreferrer'
 								>
 									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'>
 										Code

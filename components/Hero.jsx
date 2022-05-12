@@ -8,10 +8,12 @@ const Hero = () => {
 			<div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
 				<p>Hello, My name is </p>
 				<h1 className='text-4xl sm:text-7xl font-bold '>Steve Dsouza</h1>
-				<h2 className='text-4xl sm:text-7xl font-bold'>I'm a Web Developer.</h2>
+				<h2 className='text-4xl sm:text-7xl font-bold'>
+					I am a Web Developer.
+				</h2>
 				<p className='py-4 max-w-[700px]'>
-					I'm a fresher looking to help develop websites just like this one.
-					Currently I'm focused on building responsive front-ends & learning
+					I am a fresher looking to help develop websites just like this one.
+					Currently I am focused on building responsive front-ends & learning
 					Node.js
 				</p>
 				<div>

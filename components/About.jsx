@@ -14,11 +14,11 @@ const About = () => {
 				</div>
 				<div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
 					<div className='sm:text-right text-4xl font-bold '>
-						<p>Hi. I'm Steve, nice to meet you. Please take a look around.</p>
+						<p>Hi. I am Steve, nice to meet you. Please take a look around.</p>
 					</div>
 					<div>
 						<p>
-							I'm an under-graduate in Information technology (3 Year Degree
+							I am an under-graduate in Information technology (3 Year Degree
 							course) from St.Xaviers College, Mumbai. I am passionate about
 							building software that helps people.
 						</p>
