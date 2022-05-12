@@ -54,7 +54,7 @@ const Work = () => {
 						{/* Hover Effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								HTML and TailwindCSS
+								Html & TailwindCss template
 							</span>
 							<div className='pt-8 text-center'>
 								<a
@@ -86,7 +86,7 @@ const Work = () => {
 						{/* Hover Effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								HTML And CSS
+								Html & Css template
 							</span>
 							<div className='pt-8 text-center'>
 								<a
