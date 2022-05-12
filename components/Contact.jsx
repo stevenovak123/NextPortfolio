@@ -11,25 +11,16 @@ const Contact = () => {
 				<div className='flex flex-col justify-between lg:flex-row items-center'>
 					<p>Built with Next.js, TailwindCSS</p>
 					<div className='flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0'>
-						<a
-							href='https://twitter.com/stevenovak123'
-							target='_blank'
-							rel='noreferrer'
-						>
+						<a href='https://twitter.com/stevenovak123' target='_blank'>
 							Twitter
 						</a>
 						<a
 							href='https://www.linkedin.com/in/stevenovak123/'
 							target='_blank'
-							rel='noreferrer'
 						>
 							LinkedIn
 						</a>
-						<a
-							href='https://github.com/stevenovak123'
-							target='_blank'
-							rel='noreferrer'
-						>
+						<a href='https://github.com/stevenovak123' target='_blank'>
 							GitHub
 						</a>
 					</div>
