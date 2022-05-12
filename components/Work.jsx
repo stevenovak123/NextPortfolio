@@ -1,7 +1,10 @@
 import React from 'react'
 const Work = () => {
 	return (
-		<div name='Work' className='w-full md:h-screen text-black bg-GreyColor'>
+		<div
+			name='Work'
+			className='w-full md:h-screen text-black bg-GreyColor pt-10'
+		>
 			<div className='max-w-[1000px] mx-auto  p-4 flex flex-col justify-center w-full h-full'>
 				<div className='pb-8'>
 					<p className='text-4xl font-bold inline border-b-4  border-black'>

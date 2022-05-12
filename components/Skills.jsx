@@ -12,7 +12,7 @@ import Image from 'next/image'
 const Skills = () => {
 	return (
 		<div name='Skills' className='bg-GreyColor text-black w-full h-screen '>
-			<div className='max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full'>
+			<div className='max-w-[1000px]  mx-auto  flex flex-col justify-center w-full h-full'>
 				<div>
 					<p className='text-4xl font-bold inline border-b-4 border-black '>
 						Skills
@@ -27,7 +27,7 @@ const Skills = () => {
 							height={125}
 							width={140}
 							alt='HTML icon'
-							layout='responsive'
+							layout='intrinsic'
 						/>
 						<p>HTML</p>
 					</div>
@@ -38,7 +38,7 @@ const Skills = () => {
 							height={125}
 							width={140}
 							alt='CSS icon'
-							layout='responsive'
+							layout='intrinsic'
 						/>
 						<p>CSS</p>
 					</div>
@@ -49,7 +49,7 @@ const Skills = () => {
 							height={125}
 							width={140}
 							alt='JavaScript icon'
-							layout='responsive'
+							layout='intrinsic'
 						/>
 						<p>JavaScript</p>
 					</div>
@@ -60,7 +60,7 @@ const Skills = () => {
 							height={125}
 							width={140}
 							alt='React icon'
-							layout='responsive'
+							layout='intrinsic'
 						/>
 						<p>React</p>
 					</div>
@@ -71,7 +71,7 @@ const Skills = () => {
 							height={125}
 							width={140}
 							alt='Tailwind icon'
-							layout='responsive'
+							layout='intrinsic'
 						/>
 						<p>TailwindCSS</p>
 					</div>
@@ -82,18 +82,18 @@ const Skills = () => {
 							height={125}
 							width={140}
 							alt='NODE icon'
-							layout='responsive'
+							layout='intrinsic'
 						/>
 						<p>Node.js</p>
 					</div>
-					<div className='shadow-md shadow-[#b8b5ad] hover:scale-105  duration-500'>
+					<div className='shadow-md shadow-[#b8b5ad] hover:scale-105  duration-500 '>
 						<Image
 							src={Mongo}
 							className='w-20 mx-auto'
 							height={125}
 							width={140}
 							alt='Mongo icon'
-							layout='responsive'
+							layout='intrinsic'
 						/>
 						<p>MongoDB</p>
 					</div>
@@ -104,7 +104,7 @@ const Skills = () => {
 							height={125}
 							width={140}
 							alt='Firebase icon'
-							layout='responsive'
+							layout='intrinsic'
 						/>
 						<p>Firebase</p>
 					</div>
