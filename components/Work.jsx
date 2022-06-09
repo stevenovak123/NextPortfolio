@@ -23,7 +23,7 @@ const Work = () => {
 						{/* Hover Effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								Ecommerce Application with TailwindCSS, Firebase and Stripe
+								Ecommerce Application with Tailwind CSS, Firebase & Stripe
 							</span>
 							<div className='pt-8 text-center'>
 								<a
@@ -54,7 +54,7 @@ const Work = () => {
 						{/* Hover Effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								Html & TailwindCss template
+								Html & Tailwind CSS template
 							</span>
 							<div className='pt-8 text-center'>
 								<a
@@ -86,7 +86,7 @@ const Work = () => {
 						{/* Hover Effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								Html & Css template
+								Html & CSS template
 							</span>
 							<div className='pt-8 text-center'>
 								<a
@@ -111,25 +111,26 @@ const Work = () => {
 						</div>
 					</div>
 					<div
-						style={{ backgroundImage: 'url(./realestate.jpg)' }}
+						style={{ backgroundImage: 'url(./crypto.png)' }}
 						className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
 					>
 						{/* Hover Effects */}
 						<div className='opacity-0 group-hover:opacity-100'>
 							<span className='text-2xl font-bold text-white tracking-wider'>
-								React JS Application with firebase
+								Crypto tracker with React,Tailwind CSS & Firebase
 							</span>
 							<div className='pt-8 text-center'>
-								<a href='/' target='_blank' rel='noopener noreferrer'>
-									<button
-										disabled
-										className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'
-									>
+								<a
+									href='https://crypto-tracker-c6c70.web.app/'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									<button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white'>
 										Demo
 									</button>
 								</a>
 								<a
-									href='https://github.com/stevenovak123/marketplace-app'
+									href='https://github.com/stevenovak123/cryptoapiReact'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
