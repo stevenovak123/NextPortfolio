@@ -11,7 +11,7 @@ const Navbar = () => {
 		setToggleHamburger(!toggleHamburger)
 	}
 	return (
-		<div className='z-50 fixed w-full h-[80px] flex justify-between items-center px-4 bg-GreyColor text-black'>
+		<div className='z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-GreyColor text-black'>
 			<div>
 				<Image
 					src={logo}
