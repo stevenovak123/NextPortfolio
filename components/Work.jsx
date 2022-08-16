@@ -109,6 +109,37 @@ const Work = () => {
               </div>
             </div>
           </div>
+          <div
+            style={{ backgroundImage: 'url(./QRGen.jpg)' }}
+            className="shadow-lg shadow-[#b8b5ad] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold tracking-wider text-white">
+                QR Code Generator
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://stevenovak123.github.io/QrCodeGenerator/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/stevenovak123/QrCodeGenerator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="px-4 py-3 m-2 text-lg font-bold text-center text-black bg-white rounded-lg hover:bg-black hover:text-white">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

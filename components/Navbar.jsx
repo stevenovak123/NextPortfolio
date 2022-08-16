@@ -49,7 +49,7 @@ const Navbar = () => {
 					</Link>
 				</li>
 			</ul>
-			<div onClick={handleHamburgerClick} className='md:hidden z-10'>
+			<div onClick={handleHamburgerClick} className='z-10 md:hidden'>
 				{!toggleHamburger ? <FaBars /> : <FaTimes />}
 			</div>
 			<ul
@@ -114,7 +114,7 @@ const Navbar = () => {
 				<ul>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px]  duration-100 hover:bg-blue-600 '>
 						<a
-							className='flex  justify-between items-center w-full text-black'
+							className='flex items-center justify-between w-full text-black'
 							href='https://www.linkedin.com/in/stevenovak123/'
 							target='_blank'
 							rel='noopener noreferrer'
@@ -124,7 +124,7 @@ const Navbar = () => {
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px]  duration-100 hover:bg-indigo-600 '>
 						<a
-							className='flex  justify-between items-center w-full text-black'
+							className='flex items-center justify-between w-full text-black'
 							href='https://github.com/stevenovak123'
 							target='_blank'
 							rel='noopener noreferrer'
@@ -134,7 +134,7 @@ const Navbar = () => {
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px]  duration-100 hover:bg-green-600 '>
 						<a
-							className='flex  justify-between items-center w-full text-black'
+							className='flex items-center justify-between w-full text-black'
 							href='mailto:stevenovak0802@gmail.com'
 							target='_blank'
 							rel='noopener noreferrer'
@@ -144,7 +144,7 @@ const Navbar = () => {
 					</li>
 					<li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px]  duration-100 hover:bg-slate-600 '>
 						<a
-							className='flex  justify-between items-center w-full text-black'
+							className='flex items-center justify-between w-full text-black'
 							href='https://docs.google.com/document/d/1r3dmDnmuXoZ9pvA31lzmM0_FLnvx9RQ3bFUKj6dfEpI/edit?usp=sharing/'
 							target='_blank'
 							rel='noopener noreferrer'
