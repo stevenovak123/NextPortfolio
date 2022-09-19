@@ -1,7 +1,7 @@
 
 # NextJS & Tailwind  CSS Portfolio
 
-
+## Check out the deployed website [here](https://stevedsouza.vercel.app/)
 
 ## Getting Started
 
